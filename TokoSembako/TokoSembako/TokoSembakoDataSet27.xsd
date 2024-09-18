@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TokoSembakoDataSet27" targetNamespace="http://tempuri.org/TokoSembakoDataSet27.xsd" xmlns:mstns="http://tempuri.org/TokoSembakoDataSet27.xsd" xmlns="http://tempuri.org/TokoSembakoDataSet27.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TokoSembakoConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TokoSembakoConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TokoSembako.Properties.Settings.GlobalReference.Default.TokoSembakoConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewMerkTableAdapter" GeneratorDataComponentClassName="viewMerkTableAdapter" Name="viewMerk" UserDataComponentName="viewMerkTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TokoSembakoConnectionString1 (Settings)" DbObjectName="TokoSembako.dbo.viewMerk" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_merk, merk FROM dbo.viewMerk</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_merk" DataSetColumn="id_merk" />
+              <Mapping SourceColumn="merk" DataSetColumn="merk" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TokoSembakoDataSet27" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TokoSembakoDataSet27" msprop:Generator_UserDSName="TokoSembakoDataSet27">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viewMerk" msprop:Generator_TableClassName="viewMerkDataTable" msprop:Generator_TableVarName="tableviewMerk" msprop:Generator_TablePropName="viewMerk" msprop:Generator_RowDeletingName="viewMerkRowDeleting" msprop:Generator_RowChangingName="viewMerkRowChanging" msprop:Generator_RowEvHandlerName="viewMerkRowChangeEventHandler" msprop:Generator_RowDeletedName="viewMerkRowDeleted" msprop:Generator_UserTableName="viewMerk" msprop:Generator_RowChangedName="viewMerkRowChanged" msprop:Generator_RowEvArgName="viewMerkRowChangeEvent" msprop:Generator_RowClassName="viewMerkRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_merk" msprop:Generator_ColumnVarNameInTable="columnid_merk" msprop:Generator_ColumnPropNameInRow="id_merk" msprop:Generator_ColumnPropNameInTable="id_merkColumn" msprop:Generator_UserColumnName="id_merk">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="merk" msprop:Generator_ColumnVarNameInTable="columnmerk" msprop:Generator_ColumnPropNameInRow="merk" msprop:Generator_ColumnPropNameInTable="merkColumn" msprop:Generator_UserColumnName="merk">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewMerk" />
+      <xs:field xpath="mstns:id_merk" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,1440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F35E56CA-C19C-4EEF-812B-1E29EFCB8033}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TokoSembako</RootNamespace>
+    <AssemblyName>TokoSembako</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DSPegawai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSPegawai.Designer.cs">
+      <DependentUpon>DSPegawai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSAdmin.Designer.cs">
+      <DependentUpon>DSAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSPemilik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSPemilik.Designer.cs">
+      <DependentUpon>DSPemilik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBarang.Designer.cs">
+      <DependentUpon>FormBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHadiah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHadiah.Designer.cs">
+      <DependentUpon>FormHadiah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJabatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJabatan.Designer.cs">
+      <DependentUpon>FormJabatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMember.Designer.cs">
+      <DependentUpon>FormMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMerk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMerk.Designer.cs">
+      <DependentUpon>FormMerk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPengguna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPengguna.Designer.cs">
+      <DependentUpon>FormPengguna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPromo.Designer.cs">
+      <DependentUpon>FormPromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSatuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSatuan.Designer.cs">
+      <DependentUpon>FormSatuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSupplier.Designer.cs">
+      <DependentUpon>FormSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanPenukaranHadiah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanPenukaranHadiah.Designer.cs">
+      <DependentUpon>LaporanPenukaranHadiah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanTransaksiPenjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanTransaksiPenjualan.Designer.cs">
+      <DependentUpon>LaporanTransaksiPenjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanTransaksiSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanTransaksiSupplier.Designer.cs">
+      <DependentUpon>LaporanTransaksiSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanTransSuppli.cs">
+      <DependentUpon>LaporanTransSuppli.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanTransSuppli.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanTransSuppli.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanTransSupplier.cs">
+      <DependentUpon>LaporanTransSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanTransSupplier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LaporanTransSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LihatBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatBarang.Designer.cs">
+      <DependentUpon>LihatBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatHadiah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatHadiah.Designer.cs">
+      <DependentUpon>LihatHadiah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatJabatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatJabatan.Designer.cs">
+      <DependentUpon>LihatJabatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatMember.Designer.cs">
+      <DependentUpon>LihatMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatMerk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatMerk.Designer.cs">
+      <DependentUpon>LihatMerk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatPengguna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatPengguna.Designer.cs">
+      <DependentUpon>LihatPengguna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatPromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatPromo.Designer.cs">
+      <DependentUpon>LihatPromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatSatuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatSatuan.Designer.cs">
+      <DependentUpon>LihatSatuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LihatSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LihatSupplier.Designer.cs">
+      <DependentUpon>LihatSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterBarang.Designer.cs">
+      <DependentUpon>MasterBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterHadiah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterHadiah.Designer.cs">
+      <DependentUpon>MasterHadiah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterJabatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterJabatan.Designer.cs">
+      <DependentUpon>MasterJabatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterMerk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterMerk.Designer.cs">
+      <DependentUpon>MasterMerk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPengguna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterPengguna.Designer.cs">
+      <DependentUpon>MasterPengguna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPenggunaJabatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterPenggunaJabatan.Designer.cs">
+      <DependentUpon>MasterPenggunaJabatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterPromo.Designer.cs">
+      <DependentUpon>MasterPromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSatuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSatuan.Designer.cs">
+      <DependentUpon>MasterSatuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSupplier.Designer.cs">
+      <DependentUpon>MasterSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterMember.Designer.cs">
+      <DependentUpon>MasterMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="TokoSembakoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet32.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet33.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet34.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet35.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet36.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembakoDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembakoDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet6.cs">
+      <DependentUpon>TokoSembako_PRG2DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet7.cs">
+      <DependentUpon>TokoSembako_PRG2DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet8.cs">
+      <DependentUpon>TokoSembako_PRG2DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TokoSembako_PRG2DataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TokoSembako_PRG2DataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TransaksiPenjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransaksiPenjualan.Designer.cs">
+      <DependentUpon>TransaksiPenjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransaksiPenukaranHadiah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransaksiPenukaranHadiah.Designer.cs">
+      <DependentUpon>TransaksiPenukaranHadiah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransaksiSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransaksiSupplier.Designer.cs">
+      <DependentUpon>TransaksiSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransPenjualan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransPenjualan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UbahHapusBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahHapusBarang.Designer.cs">
+      <DependentUpon>UbahHapusBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahHapusHadiah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahHapusHadiah.Designer.cs">
+      <DependentUpon>UbahHapusHadiah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahHapusJabatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahHapusJabatan.Designer.cs">
+      <DependentUpon>UbahHapusJabatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahHapusMerk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahHapusMerk.Designer.cs">
+      <DependentUpon>UbahHapusMerk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahHapusPengguna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahHapusPengguna.Designer.cs">
+      <DependentUpon>UbahHapusPengguna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahHapusPromo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahHapusPromo.Designer.cs">
+      <DependentUpon>UbahHapusPromo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahHapusSatuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahHapusSatuan.Designer.cs">
+      <DependentUpon>UbahHapusSatuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahHapusSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahHapusSupplier.Designer.cs">
+      <DependentUpon>UbahHapusSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateHapusMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateHapusMember.Designer.cs">
+      <DependentUpon>UpdateHapusMember.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DSAdmin.resx">
+      <DependentUpon>DSAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSPegawai.resx">
+      <DependentUpon>DSPegawai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSPemilik.resx">
+      <DependentUpon>DSPemilik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBarang.resx">
+      <DependentUpon>FormBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHadiah.resx">
+      <DependentUpon>FormHadiah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJabatan.resx">
+      <DependentUpon>FormJabatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMember.resx">
+      <DependentUpon>FormMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMerk.resx">
+      <DependentUpon>FormMerk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPengguna.resx">
+      <DependentUpon>FormPengguna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPromo.resx">
+      <DependentUpon>FormPromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSatuan.resx">
+      <DependentUpon>FormSatuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSupplier.resx">
+      <DependentUpon>FormSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanPenukaranHadiah.rdlc" />
+    <EmbeddedResource Include="LaporanPenukaranHadiah.resx">
+      <DependentUpon>LaporanPenukaranHadiah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanTransaksiPenjualan.resx">
+      <DependentUpon>LaporanTransaksiPenjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanTransaksiSupplier.resx">
+      <DependentUpon>LaporanTransaksiSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanTransaksiSupplier3.rdlc" />
+    <EmbeddedResource Include="LaporanTransPenjualan.rdlc" />
+    <EmbeddedResource Include="LihatBarang.resx">
+      <DependentUpon>LihatBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatHadiah.resx">
+      <DependentUpon>LihatHadiah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatJabatan.resx">
+      <DependentUpon>LihatJabatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatMember.resx">
+      <DependentUpon>LihatMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatMerk.resx">
+      <DependentUpon>LihatMerk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatPengguna.resx">
+      <DependentUpon>LihatPengguna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatPromo.resx">
+      <DependentUpon>LihatPromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatSatuan.resx">
+      <DependentUpon>LihatSatuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LihatSupplier.resx">
+      <DependentUpon>LihatSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterBarang.resx">
+      <DependentUpon>MasterBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterHadiah.resx">
+      <DependentUpon>MasterHadiah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterJabatan.resx">
+      <DependentUpon>MasterJabatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterMember.resx">
+      <DependentUpon>MasterMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterMerk.resx">
+      <DependentUpon>MasterMerk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterPengguna.resx">
+      <DependentUpon>MasterPengguna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterPenggunaJabatan.resx">
+      <DependentUpon>MasterPenggunaJabatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterPromo.resx">
+      <DependentUpon>MasterPromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSatuan.resx">
+      <DependentUpon>MasterSatuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSupplier.resx">
+      <DependentUpon>MasterSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PenukaranHadiah.rdlc" />
+    <EmbeddedResource Include="PenukaranLaporan.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="SupplierTransaksi.rdlc" />
+    <EmbeddedResource Include="TransaksiPenjualan.resx">
+      <DependentUpon>TransaksiPenjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransaksiPenjualan23.rdlc" />
+    <EmbeddedResource Include="TransaksiPenukaranHadiah.resx">
+      <DependentUpon>TransaksiPenukaranHadiah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransaksiSupplier.resx">
+      <DependentUpon>TransaksiSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransSupplier.rdlc" />
+    <EmbeddedResource Include="UbahHapusBarang.resx">
+      <DependentUpon>UbahHapusBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahHapusHadiah.resx">
+      <DependentUpon>UbahHapusHadiah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahHapusJabatan.resx">
+      <DependentUpon>UbahHapusJabatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahHapusMerk.resx">
+      <DependentUpon>UbahHapusMerk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahHapusPengguna.resx">
+      <DependentUpon>UbahHapusPengguna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahHapusPromo.resx">
+      <DependentUpon>UbahHapusPromo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahHapusSatuan.resx">
+      <DependentUpon>UbahHapusSatuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahHapusSupplier.resx">
+      <DependentUpon>UbahHapusSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateHapusMember.resx">
+      <DependentUpon>UpdateHapusMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="LaporanTransSuppli.xsc">
+      <DependentUpon>LaporanTransSuppli.xsd</DependentUpon>
+    </None>
+    <None Include="LaporanTransSuppli.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LaporanTransSuppli.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="LaporanTransSuppli.xss">
+      <DependentUpon>LaporanTransSuppli.xsd</DependentUpon>
+    </None>
+    <None Include="LaporanTransSupplier.xsc">
+      <DependentUpon>LaporanTransSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="LaporanTransSupplier.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LaporanTransSupplier.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="LaporanTransSupplier.xss">
+      <DependentUpon>LaporanTransSupplier.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TokoSembakoDataSet.xsc">
+      <DependentUpon>TokoSembakoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet.xss">
+      <DependentUpon>TokoSembakoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet1.xsc">
+      <DependentUpon>TokoSembakoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet1.xss">
+      <DependentUpon>TokoSembakoDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet10.xsc">
+      <DependentUpon>TokoSembakoDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet10.xss">
+      <DependentUpon>TokoSembakoDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet11.xsc">
+      <DependentUpon>TokoSembakoDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet11.xss">
+      <DependentUpon>TokoSembakoDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet12.xsc">
+      <DependentUpon>TokoSembakoDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet12.xss">
+      <DependentUpon>TokoSembakoDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet13.xsc">
+      <DependentUpon>TokoSembakoDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet13.xss">
+      <DependentUpon>TokoSembakoDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet14.xsc">
+      <DependentUpon>TokoSembakoDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet14.xss">
+      <DependentUpon>TokoSembakoDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet15.xsc">
+      <DependentUpon>TokoSembakoDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet15.xss">
+      <DependentUpon>TokoSembakoDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet16.xsc">
+      <DependentUpon>TokoSembakoDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet16.xss">
+      <DependentUpon>TokoSembakoDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet17.xsc">
+      <DependentUpon>TokoSembakoDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet17.xss">
+      <DependentUpon>TokoSembakoDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet18.xsc">
+      <DependentUpon>TokoSembakoDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet18.xss">
+      <DependentUpon>TokoSembakoDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet19.xsc">
+      <DependentUpon>TokoSembakoDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet19.xss">
+      <DependentUpon>TokoSembakoDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet2.xsc">
+      <DependentUpon>TokoSembakoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet2.xss">
+      <DependentUpon>TokoSembakoDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet20.xsc">
+      <DependentUpon>TokoSembakoDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet20.xss">
+      <DependentUpon>TokoSembakoDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet21.xsc">
+      <DependentUpon>TokoSembakoDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet21.xss">
+      <DependentUpon>TokoSembakoDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet22.xsc">
+      <DependentUpon>TokoSembakoDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet22.xss">
+      <DependentUpon>TokoSembakoDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet23.xsc">
+      <DependentUpon>TokoSembakoDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet23.xss">
+      <DependentUpon>TokoSembakoDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet24.xsc">
+      <DependentUpon>TokoSembakoDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet24.xss">
+      <DependentUpon>TokoSembakoDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet25.xsc">
+      <DependentUpon>TokoSembakoDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet25.xss">
+      <DependentUpon>TokoSembakoDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet26.xsc">
+      <DependentUpon>TokoSembakoDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet26.xss">
+      <DependentUpon>TokoSembakoDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet27.xsc">
+      <DependentUpon>TokoSembakoDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet27.xss">
+      <DependentUpon>TokoSembakoDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet28.xsc">
+      <DependentUpon>TokoSembakoDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet28.xss">
+      <DependentUpon>TokoSembakoDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet29.xsc">
+      <DependentUpon>TokoSembakoDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet29.xss">
+      <DependentUpon>TokoSembakoDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet3.xsc">
+      <DependentUpon>TokoSembakoDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet3.xss">
+      <DependentUpon>TokoSembakoDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet30.xsc">
+      <DependentUpon>TokoSembakoDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet30.xss">
+      <DependentUpon>TokoSembakoDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet31.xsc">
+      <DependentUpon>TokoSembakoDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet31.xss">
+      <DependentUpon>TokoSembakoDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet32.xsc">
+      <DependentUpon>TokoSembakoDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet32.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet32.xss">
+      <DependentUpon>TokoSembakoDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet33.xsc">
+      <DependentUpon>TokoSembakoDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet33.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet33.xss">
+      <DependentUpon>TokoSembakoDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet34.xsc">
+      <DependentUpon>TokoSembakoDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet34.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet34.xss">
+      <DependentUpon>TokoSembakoDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet35.xsc">
+      <DependentUpon>TokoSembakoDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet35.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet35.xss">
+      <DependentUpon>TokoSembakoDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet36.xsc">
+      <DependentUpon>TokoSembakoDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet36.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet36.xss">
+      <DependentUpon>TokoSembakoDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet4.xsc">
+      <DependentUpon>TokoSembakoDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet4.xss">
+      <DependentUpon>TokoSembakoDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet5.xsc">
+      <DependentUpon>TokoSembakoDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet5.xss">
+      <DependentUpon>TokoSembakoDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet6.xsc">
+      <DependentUpon>TokoSembakoDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet6.xss">
+      <DependentUpon>TokoSembakoDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet7.xsc">
+      <DependentUpon>TokoSembakoDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet7.xss">
+      <DependentUpon>TokoSembakoDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet8.xsc">
+      <DependentUpon>TokoSembakoDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet8.xss">
+      <DependentUpon>TokoSembakoDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet9.xsc">
+      <DependentUpon>TokoSembakoDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembakoDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembakoDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembakoDataSet9.xss">
+      <DependentUpon>TokoSembakoDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet1.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet1.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet2.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet2.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet3.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet3.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet4.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet4.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet5.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet5.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet6.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet6.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet7.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet7.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet8.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet8.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet9.xsc">
+      <DependentUpon>TokoSembako_PRG2DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TokoSembako_PRG2DataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TokoSembako_PRG2DataSet9.xss">
+      <DependentUpon>TokoSembako_PRG2DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="TransPenjualan.xsc">
+      <DependentUpon>TransPenjualan.xsd</DependentUpon>
+    </None>
+    <None Include="TransPenjualan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TransPenjualan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TransPenjualan.xss">
+      <DependentUpon>TransPenjualan.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgmember.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gift.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen-scales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\socialmedia-advertising-digitalmarketing-branding-facebook-twitter-91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\socialmedia-advertising-digitalmarketing-branding-facebook-twitter-911.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\promotion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PinClipart.com_labor-clipart_5556343.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\role.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\role1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgmember1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TukerHadiah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospitality.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospitality1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarokahLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\member-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TukerHadiah1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrsHadiah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\Tuker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-weight-scale-icon-white-isolated-on-blue-background-vector-illustration-png-image_4982730.png" />
+    <None Include="Resources\pngtree-weight-scale-icon-white-isolated-on-blue-background-vector-illustration-png-image_49827301.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

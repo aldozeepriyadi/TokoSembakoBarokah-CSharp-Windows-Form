@@ -1,0 +1,180 @@
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.exe.config
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.exe
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.pdb
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csprojAssemblyReference.cache
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormLogin.resources
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterPenggunaJabatan.resources
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.Properties.Resources.resources
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csproj.GenerateResource.cache
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csproj.CoreCompileInputs.cache
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.exe
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.pdb
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.DSAdmin.resources
+C:\Users\murpi\OneDrive\Dokumen\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterMember.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.exe.config
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.exe
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.pdb
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csprojAssemblyReference.cache
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.DSAdmin.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormLogin.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatBarang.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatHadiah.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatJabatan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatMember.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatMerk.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatPengguna.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatPromo.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatSatuan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatSupplier.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterBarang.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterHadiah.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterJabatan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterMember.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterMerk.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterPengguna.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterPenggunaJabatan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterPromo.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterSatuan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterSupplier.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.Properties.Resources.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusBarang.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusHadiah.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusJabatan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusMerk.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusPengguna.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusPromo.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusSatuan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusSupplier.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UpdateHapusMember.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csproj.GenerateResource.cache
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csproj.CoreCompileInputs.cache
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.exe
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.pdb
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormJabatan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormMember.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormBarang.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormHadiah.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormMerk.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormPengguna.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormPromo.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormSupplier.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormSatuan.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.TransaksiPenukaranHadiah.resources
+C:\Users\RIAN SURYANA\Documents\Kuliah\SEMESTER 2\PRG2\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.TransaksiSupplier.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.exe.config
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.exe
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\TokoSembako.pdb
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.DSAdmin.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormBarang.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormHadiah.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormJabatan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormLogin.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormMember.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormMerk.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormPengguna.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormPromo.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormSatuan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.FormSupplier.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatBarang.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatHadiah.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatJabatan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatMember.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatMerk.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatPengguna.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatPromo.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatSatuan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LihatSupplier.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterBarang.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterHadiah.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterJabatan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterMember.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterMerk.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterPengguna.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterPenggunaJabatan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterPromo.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterSatuan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.MasterSupplier.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.Properties.Resources.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.TransaksiPenukaranHadiah.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusBarang.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusHadiah.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusJabatan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusMerk.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusPengguna.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusPromo.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusSatuan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UbahHapusSupplier.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.UpdateHapusMember.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csproj.GenerateResource.cache
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csproj.CoreCompileInputs.cache
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.exe
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.pdb
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.DSPegawai.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.DSPemilik.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LaporanPenukaranHadiah.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\EnvDTE.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\stdole.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\Microsoft.MSXML.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csproj.CopyComplete
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\RdlCompile.cache
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\RdlCompile.compiled
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LaporanTransaksiSupplier.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.TransaksiSupplier.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.csprojAssemblyReference.cache
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.TransaksiPenjualan.resources
+E:\naviza rizki safara\SEMESTER 2\prg2\yukk\TokoSembako\TokoSembako\TokoSembako\TokoSembako\obj\Debug\TokoSembako.LaporanTransaksiPenjualan.resources

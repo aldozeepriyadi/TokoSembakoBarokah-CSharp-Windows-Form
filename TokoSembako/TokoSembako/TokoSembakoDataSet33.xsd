@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TokoSembakoDataSet33" targetNamespace="http://tempuri.org/TokoSembakoDataSet33.xsd" xmlns:mstns="http://tempuri.org/TokoSembakoDataSet33.xsd" xmlns="http://tempuri.org/TokoSembakoDataSet33.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TokoSembakoConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TokoSembakoConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TokoSembako.Properties.Settings.GlobalReference.Default.TokoSembakoConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viewHadiahMemberTableAdapter" GeneratorDataComponentClassName="viewHadiahMemberTableAdapter" Name="viewHadiahMember" UserDataComponentName="viewHadiahMemberTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TokoSembakoConnectionString1 (Settings)" DbObjectName="TokoSembako.dbo.viewHadiahMember" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id_hadiah, hadiah, stok_hadiah, poin FROM dbo.viewHadiahMember</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_hadiah" DataSetColumn="id_hadiah" />
+              <Mapping SourceColumn="hadiah" DataSetColumn="hadiah" />
+              <Mapping SourceColumn="stok_hadiah" DataSetColumn="stok_hadiah" />
+              <Mapping SourceColumn="poin" DataSetColumn="poin" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TokoSembakoDataSet33" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TokoSembakoDataSet33" msprop:Generator_UserDSName="TokoSembakoDataSet33">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viewHadiahMember" msprop:Generator_TableClassName="viewHadiahMemberDataTable" msprop:Generator_TableVarName="tableviewHadiahMember" msprop:Generator_TablePropName="viewHadiahMember" msprop:Generator_RowDeletingName="viewHadiahMemberRowDeleting" msprop:Generator_RowChangingName="viewHadiahMemberRowChanging" msprop:Generator_RowEvHandlerName="viewHadiahMemberRowChangeEventHandler" msprop:Generator_RowDeletedName="viewHadiahMemberRowDeleted" msprop:Generator_UserTableName="viewHadiahMember" msprop:Generator_RowChangedName="viewHadiahMemberRowChanged" msprop:Generator_RowEvArgName="viewHadiahMemberRowChangeEvent" msprop:Generator_RowClassName="viewHadiahMemberRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_hadiah" msprop:Generator_ColumnVarNameInTable="columnid_hadiah" msprop:Generator_ColumnPropNameInRow="id_hadiah" msprop:Generator_ColumnPropNameInTable="id_hadiahColumn" msprop:Generator_UserColumnName="id_hadiah">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="hadiah" msprop:Generator_ColumnVarNameInTable="columnhadiah" msprop:Generator_ColumnPropNameInRow="hadiah" msprop:Generator_ColumnPropNameInTable="hadiahColumn" msprop:Generator_UserColumnName="hadiah">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="stok_hadiah" msprop:Generator_ColumnVarNameInTable="columnstok_hadiah" msprop:Generator_ColumnPropNameInRow="stok_hadiah" msprop:Generator_ColumnPropNameInTable="stok_hadiahColumn" msprop:Generator_UserColumnName="stok_hadiah" type="xs:int" />
+              <xs:element name="poin" msprop:Generator_ColumnVarNameInTable="columnpoin" msprop:Generator_ColumnPropNameInRow="poin" msprop:Generator_ColumnPropNameInTable="poinColumn" msprop:Generator_UserColumnName="poin" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viewHadiahMember" />
+      <xs:field xpath="mstns:id_hadiah" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
